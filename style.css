@@ -1,0 +1,44 @@
+.animated-word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  font-size: 30px;
+  transition: 0.4s;
+  transform: translateX(0);
+  cursor: grab;
+  color: aliceblue;
+}
+
+.letter:hover {
+  transform: translateY(-1rem);
+  background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #e2edff;
+}
+
+#gallery {
+  background-color: #e2edff;
+}
+
+.offcanvas {
+  background-image: url(img/background-web.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
