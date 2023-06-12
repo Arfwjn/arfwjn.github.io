@@ -36,6 +36,10 @@
   padding-top: 6rem;
 }
 
+#contact {
+  padding-top: 5rem;
+}
+
 .offcanvas {
   background-image: url(img/background-web.png);
   background-size: cover;
