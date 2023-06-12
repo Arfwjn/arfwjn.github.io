@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portofolio Arief Sidik Wijayanto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <!-- aos -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- bs icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
   </head>
   <body id="home">
     <!-- navbar -->
@@ -42,6 +49,12 @@
                 <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
@@ -66,10 +79,10 @@
     <!-- navbar end -->
 
     <!-- jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center mb-5">
       <img src="img/profil.png" alt="Arief Sidik" width="200px" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Arief Sidik Wijayanto</h1>
-      <p class="lead">JUST HUMAN</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -82,19 +95,19 @@
 
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container mt-5 pt-5">
         <div class="row text-center">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center mt-3 fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quaerat veritatis natus similique id assumenda animi libero eos adipisci explicabo recusandae quod commodi iste voluptates excepturi corporis, cum repellat esse!
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sint illum asperiores id aut eum, facilis fugit rem tenetur architecto explicabo debitis odit accusantium beatae dolorum minima, necessitatibus veritatis
               error. nisi, eaque tenetur earum quia id.
@@ -112,17 +125,17 @@
     </section>
     <!-- about end -->
 
-    <!-- gallery -->
-    <section id="gallery">
+    <!-- project -->
+    <section id="project">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col mt-5 pt-5">
-            <h2>Gallery</h2>
+            <h2>Project</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000">
               <img src="img/gambar1.png" class="card-img-top" alt="keyboard coral" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,7 +143,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
               <img src="img/gambar2.png" class="card-img-top" alt="keyboard monokrom" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -138,7 +151,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
               <img src="img/gambar3.png" class="card-img-top" alt="monokrom" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,7 +159,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="300">
               <img src="img/gambar4.png" class="card-img-top" alt="old keyboard" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -154,7 +167,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
               <img src="img/gambar5.png" class="card-img-top" alt="old keyboard" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -171,12 +184,76 @@
         ></path>
       </svg>
     </section>
+    <!-- akhir project -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum1.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum2.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum3.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum4.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum5.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum6.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum7.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum8.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <!-- <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum9.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thum/thum10.png" alt="" class="img-fluid gallery-img">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+
     <!-- akhir gallery -->
 
     <!-- contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mt-4 mb-3">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
@@ -227,6 +304,33 @@
     <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    const galleryImage = document.querySelectorAll('.gallery-img');
+
+    galleryImage.forEach((img, i) => {
+      img.dataset.aos = 'fade-down';
+      img.dataset.aosDelay = i * 100;
+      img.dataset.aosDuration = '1000';
+    })
+    AOS.init({
+      once: true,
+    });
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/TextPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(TextPlugin);
+  gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Just human who loving code'});
+  gsap.from('.jumbotron img', {duration: 1.5, y:-100, opacity: 0, rotateY: 360});
+  gsap.from('.navbar', {duration: 1.5, opacity: 0});
+  gsap.from('.animated-word', {duration: 1, x:-50, opacity: 0, delay: 0.5});
+  gsap.from('.navbar-toggler', {duration: 1, x:50, opacity: 0, delay: 0.5});
+  gsap.from('.display-4', {duration: 1, y:100, opacity: 0, delay: 0.5, ease: 'back'});
+</script>
+
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbwwOYOrL7ymJcLico9alD2sU_6vvA-3ThRcH0vk2LHezTklbPKaAj6hmwgRAsGiJxBmzA/exec";

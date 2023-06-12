@@ -20,12 +20,20 @@
 }
 
 .jumbotron {
-  padding-top: 10rem;
+  padding-top: 9rem;
+  background-color: #e2edff;
+}
+
+#about {
+  padding-top: 5rem;
+}
+
+#project {
   background-color: #e2edff;
 }
 
 #gallery {
-  background-color: #e2edff;
+  padding-top: 6rem;
 }
 
 .offcanvas {
@@ -41,4 +49,13 @@
 
 a {
   text-decoration: none;
+}
+
+.gallery-img {
+  width: 100%;
+  margin: auto;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
